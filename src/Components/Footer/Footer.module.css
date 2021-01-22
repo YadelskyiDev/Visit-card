@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+}
+
+
+.contact div{
+    margin: 0 20px;
+}

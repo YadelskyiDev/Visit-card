@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cube{
+    width: 16px;
+    height: 16px;
+    background-color: #0050FF;
+}
+
+.title{
+    display: flex;
+    align-items: baseline;
+}
+
+.title h1 {
+    font-size: 25px;
+}
+
+.title p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.title div{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links li{
+    text-transform: uppercase;
+    margin: 0 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #0050FF;
+}
+
