@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    min-height: 126px;
 }
 
 .cube{
@@ -12,7 +13,7 @@
 
 .title{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .title h1 {

@@ -1,0 +1,129 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.colorUnderlay{
+    position: relative;
+    background-color: #e6DACE;
+    height: 100vh;
+    max-width: 35%;
+}
+
+.card{
+    display: flex;
+    position: fixed;
+    top:20%;
+    left: 20%;
+}
+
+.aboutMeCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4ECE6;
+    min-width: 425px;
+    height: fit-content;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    padding-top: 4%;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 19px;
+    border-radius: 50%;
+    border: 3px solid #f4ECE6;
+}
+
+.card h2 {
+    margin: 5px 0;
+}
+
+
+.line{
+    height: 2px;
+    width: 55px;
+    margin: 19px 0;
+    background: #0050FF;
+}
+
+.professionName{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.social{
+    width: 100%;
+    height: 53px;
+    background: #FFF;
+}
+
+.aboutText{
+    margin-left: 20px;
+}
+
+.aboutText p{
+    width: 369px;
+}
+
+.aboutTitle{
+    margin: 25px 0;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.whoami{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.buttons{
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.buttonResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 36px;
+    margin-right: 15px;
+    color: whitesmoke;
+    background: #0050FF;
+    border-radius: 18px;
+    border: 2px solid #0050FF;
+    transition-duration: 0.4s;
+}
+
+.buttonResume:hover{
+    background: #FFF;
+    color: black;
+}
+
+.buttonProjects{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 130px;
+     height: 36px;
+     border-radius: 18px;
+     border: 2px solid black;
+     transition-duration: 0.4s;
+}
+
+.buttonProjects:hover{
+    background: #0050FF;
+    color:whitesmoke;
+    border: 2px solid #0050FF;
+}
